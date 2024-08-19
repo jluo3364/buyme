@@ -57,7 +57,7 @@
 
   ---
 
-> Use these pre-inserted values to test the project's functionality
+## Use these pre-inserted values to test the project's functionality
 ### Admin Credentials:
 - **Username:** admin
 - **Password:** 1000
@@ -76,3 +76,5 @@
 - **Username:** sammy
   - **Password:** 1010
 
+## Group Members:
+Adam Trabelsi, Andrea Kim, Jessica Luo, Maha Kanakala
