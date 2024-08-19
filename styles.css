@@ -1,0 +1,184 @@
+html, body {
+    margin: 20px auto;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body, input, select {
+    font-family: Verdana, sans-serif;
+    background-color: white;
+    line-height: 1.5;
+    color: #1c2541;
+}
+
+
+input[type="submit"]{
+    background: #1c2541;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: #1c2541;
+    border: 2px solid #1c2541;
+    cursor: pointer;
+}
+
+table input:hover {
+    background-color: white;
+    color: #1c2541;
+    cursor: pointer;
+}
+.scrollable-container {
+    max-height: 80vh; /* Adjust height as needed */
+    overflow-y: auto;
+}
+.center-texts {
+    text-align: center;
+    display: block;
+}
+
+form {
+    line-height: 2;
+}
+
+h1, h2, h3 {
+    color: #297ab6;
+}
+
+button{
+    background: #1c2541;
+    color: white;
+    border-radius: 10px;
+    width: 20%;
+    padding: 10px;
+    border: 2px solid #1c2541;
+
+}
+
+
+button:hover {
+    background-color: white;
+    color: #1c2541;
+    cursor: pointer;
+}
+
+textarea{
+    border-radius: 10px;
+    border: 2px solid #1c2541;
+}
+tr {
+    border-bottom: 1px solid rgba(28, 37, 65, 0.14);
+}
+
+.listing-tr:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+th {
+    pointer-events: none;
+}
+
+td, th {
+    text-align: center;
+    padding: 8px;
+}
+
+a:visited, a:link {
+    color: #4c8cc0;
+}
+
+a:hover {
+    color: #0a2559;
+}
+
+input, select{
+    border: 2px solid #1c2541;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    margin: 1em 0 ;
+}
+
+.row {
+    display: flex;
+    column-gap: 3%;
+    width: 92vw;
+    max-width: 720px;
+}
+
+.column {
+    flex: 50%;
+}
+
+.details {
+    text-align: left;
+}
+
+.back-button{
+    padding-top:40px;
+}
+
+#listingForm{
+    overflow: scroll;
+    padding: 4vw;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #1c2541;
+    margin: 30px auto; /* Center horizontally */
+    padding-bottom: 10px;
+    width: 80%;
+}
+
+.search-row{
+    margin: 1em 0;
+    justify-content: center;
+    width: unset;
+}
+.filter-input{
+    width: 80px;
+}
+.filter-row{
+    width: 438px;
+}
+.search-controls{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5em;
+}
+
+.search-controls .row{
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+#filter-toggle{
+    background: none;
+    color: #1c2541;
+    border: none;
+    text-decoration: underline;
+}
+#search-input{
+    width: 100%;
+}
+.filter-controls{
+    width: 100%;
+}
+ul{
+    width: 100%;
+}
+.listing-sub-title{
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    margin-top: 1em;
+}
